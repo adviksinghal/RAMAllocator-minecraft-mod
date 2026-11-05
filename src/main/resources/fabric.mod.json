@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "ramadvisor",
+	"version": "${version}",
+	"name": "RAMAdvisor",
+	"description": "A lightweight, 100% client-side utility mod that profiles your system and gameplay memory usage to guide you on optimal RAM allocation.",
+	"authors": [
+		"ProHacker888"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/r-a",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ramadvisor/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ra.client.RAMAdvisorClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
